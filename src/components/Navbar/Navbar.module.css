@@ -1,0 +1,21 @@
+.nav {
+  grid-area: n;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+
+  position: relative;
+}
+.item {
+  padding: 5px;
+  color: rgb(139, 139, 139);
+}
+.settings {
+  position: absolute;
+
+  top: 220px;
+}
+a.active {
+  color: rgb(255, 166, 103);
+}

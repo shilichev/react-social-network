@@ -1,0 +1,20 @@
+.name {
+  width: auto;
+  height: 40px;
+  background-color: rgb(236, 236, 236);
+  margin: 0px 20px 0px 20px;
+  border-bottom-width: 2px; /* Толщина линии внизу */
+  border-bottom-style: solid; /* Стиль линии внизу */
+  border-bottom-color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: orange;
+}
+.text {
+  position: absolute;
+  margin: 8px;
+}
+.name .active {
+  color: rgb(236, 236, 236);
+  background-color: rgb(255, 166, 103);
+}

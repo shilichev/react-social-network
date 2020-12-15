@@ -1,0 +1,19 @@
+.item img {
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.item p {
+  padding-top: 16px;
+  padding-left: 60px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+}
+.item {
+  margin-top: 50px;
+  width: 1000px;
+  height: 50px;
+}
