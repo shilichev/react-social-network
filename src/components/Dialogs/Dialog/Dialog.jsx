@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./Names.module.css";
+import classes from "./Dialog.module.css";
 import { NavLink } from "react-router-dom";
 
-const Names = (props) => {
+const Dialog = (props) => {
   let path = "/messages/" + props.id;
   return (
     <div className={classes.name}>
@@ -14,4 +14,4 @@ const Names = (props) => {
     </div>
   );
 };
-export default Names;
+export default Dialog;

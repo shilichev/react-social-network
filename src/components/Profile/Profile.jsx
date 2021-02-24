@@ -2,7 +2,8 @@ import React from "react";
 import MyPosts from "./MyPosts/MyPosts";
 import classes from "./Profile.module.css";
 
-const Profile = () => {
+const Profile = (props) => {
+  console.log(props.state)
   return (
     <div>
       <div>
@@ -15,7 +16,12 @@ const Profile = () => {
         />
       </div>
       <div>
-        <MyPosts />
+        <MyPosts
+          postsData={props.state.postsData}
+          newPost={props.state.post}
+          addPost={props.addPost}
+          updatePost={props.updatePost}
+        />
       </div>
     </div>
   );
